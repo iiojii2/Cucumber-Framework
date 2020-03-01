@@ -1,6 +1,6 @@
-package StepDefenitions;
+package StepDefenitions.WeborderStepDefs;
 
-import Pages.LoginPage;
+import Pages.WebOrdePages.LoginPage;
 import Utils.ConfigReader;
 import Utils.Driver;
 import io.cucumber.java.en.Given;

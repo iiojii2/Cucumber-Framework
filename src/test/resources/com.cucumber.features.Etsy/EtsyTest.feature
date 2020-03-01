@@ -1,5 +1,5 @@
 Feature: Etsy.com
-  Background:
+  Background: It will navigate the page in every scenario
     Given the user navigate to Esty webPage
 
   Scenario: Test woodenSpoon

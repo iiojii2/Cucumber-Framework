@@ -1,4 +1,4 @@
-package StepDefenitions;
+package StepDefenitions.WeborderStepDefs;
 
 import io.cucumber.java.en.Given;
 

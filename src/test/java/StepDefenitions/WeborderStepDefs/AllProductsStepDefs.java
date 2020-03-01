@@ -1,10 +1,9 @@
-package StepDefenitions;
+package StepDefenitions.WeborderStepDefs;
 
-import Pages.AllProductsPage;
-import Pages.HomePage;
+import Pages.WebOrdePages.AllProductsPage;
+import Pages.WebOrdePages.HomePage;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 

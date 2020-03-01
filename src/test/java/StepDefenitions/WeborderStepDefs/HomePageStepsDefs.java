@@ -1,6 +1,6 @@
-package StepDefenitions;
+package StepDefenitions.WeborderStepDefs;
 
-import Pages.HomePage;
+import Pages.WebOrdePages.HomePage;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;

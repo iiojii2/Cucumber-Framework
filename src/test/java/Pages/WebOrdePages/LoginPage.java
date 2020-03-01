@@ -1,4 +1,4 @@
-package Pages;
+package Pages.WebOrdePages;
 
 import Utils.Driver;
 import org.openqa.selenium.WebElement;

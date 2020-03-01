@@ -1,6 +1,6 @@
-package StepDefenitions;
+package StepDefenitions.WeborderStepDefs;
 
-import Pages.AllOrdersPAge;
+import Pages.WebOrdePages.AllOrdersPAge;
 
 import io.cucumber.java.en.Then;
 import org.junit.Assert;

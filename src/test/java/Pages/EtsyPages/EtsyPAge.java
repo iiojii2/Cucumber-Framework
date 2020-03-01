@@ -1,4 +1,4 @@
-package Pages;
+package Pages.EtsyPages;
 
 import Utils.Driver;
 import org.openqa.selenium.WebElement;

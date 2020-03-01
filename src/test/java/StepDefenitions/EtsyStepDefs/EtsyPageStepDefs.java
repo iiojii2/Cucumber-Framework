@@ -1,6 +1,6 @@
-package StepDefenitions;
+package StepDefenitions.EtsyStepDefs;
 
-import Pages.EtsyPAge;
+import Pages.EtsyPages.EtsyPAge;
 import Utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
