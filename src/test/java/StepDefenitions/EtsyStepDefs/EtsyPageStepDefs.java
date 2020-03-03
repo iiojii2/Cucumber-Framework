@@ -1,6 +1,7 @@
 package StepDefenitions.EtsyStepDefs;
 
 import Pages.EtsyPages.EtsyPAge;
+import Utils.ConfigReader;
 import Utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,7 +14,7 @@ public class EtsyPageStepDefs {
 
     @Given("the user navigate to Esty webPage")
     public void the_user_navigate_to_Esty_webPage() {
-       driver.get("https://www.etsy.com/?ref=lgo");
+       driver.get(ConfigReader.getProperty("etsyUrl"));
     }
 
     @Then("the user search for {string}")
@@ -23,10 +24,10 @@ public class EtsyPageStepDefs {
     }
 
     @Then("the user validate with {string}")
-    public void the_user_validate_with(String title) {
+    public void the_user_validate_with(String expectedtitle) {
         String actualMessage= driver.getTitle();
 
-        Assert.assertEquals(title,actualMessage);
+        Assert.assertEquals(actualMessage,expectedtitle);
 
     }
 }
